@@ -1,0 +1,374 @@
+article{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    text-align: center;
+    padding: 0;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    
+    
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  body {
+    font-family: Open Sans;
+    font-weight: 100;
+    font-size: 20px;
+    color: #111;
+    padding-top: 50px;
+    text-align: center;
+    
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  article {
+    display: block;
+    width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+    
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  svg {
+    width: 75px;
+    margin-top: 1em;
+  }
+
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+
+  }  
+  .buttonspace{
+    margin-top: 30px;
+  }
+  .buttonReturn {
+    background-color: #1970B7;
+    border: none;
+    color: white;
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+  } 
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+  body {
+    text-align: center;
+    padding: 0;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .message {
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .card {
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  .buttonReturn {
+    background-color: #1970B7;
+    border: none;
+    color: white;
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+  } 
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .buttonReturn {
+    background-color: #1970B7;
+    border: none;
+    color: white;
+    padding: 20px 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px !important;
+    border-radius: 50px;
+  } 
+  body {
+    text-align: center;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .message {
+    font-size: 40px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .card {
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 50px 80px;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .responsiveLogo {
+    width: 700px;
+    padding-top: 30px;
+  }
+  .buttonspace{
+    margin-bottom: 50px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1280px) and (orientation: landscape) {
+
+  body {
+    text-align: center;
+    padding: 0;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .message {
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .card {
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .responsiveLogo {
+    width: 40%;
+    padding-top: 20px;
+  }
+  .buttonReturn {
+    background-color: #1970B7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px !important;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  body {
+    text-align: center;
+    padding: 0;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .message {
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .card {
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .responsiveLogo {
+    width: 50%;
+    padding-top: 20px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    text-align: center;
+    padding: 0;
+    background: #EDEDED;
+    color: #111;
+    font-family: Open Sans;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .message {
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .card {
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .responsiveLogo {
+    width: 80%;
+    padding-top: 20px;
+  }
+}
